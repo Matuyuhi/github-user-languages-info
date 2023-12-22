@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Change Name
-        uses: Matuyuhi/github-user-languages-info@release
+        uses: Matuyuhi/github-user-languages-info@v1.0.0
         with:
           who-to-greet: 'World!!!'
