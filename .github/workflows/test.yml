@@ -1,0 +1,11 @@
+name: Test
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Change Name
+        uses: Matuyuhi/github-user-languages-info@release
+        with:
+          who-to-greet: 'World!!!'
